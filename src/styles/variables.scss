@@ -1,0 +1,63 @@
+$black: #000000;
+$white: #ffffff;
+$blue: #0068ff;
+$teal: #00ffdd;
+$grey: #5e5e5e;
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 576px;
+
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+
+// Tablets and small desktops
+$screen-lg-min: 992px;
+
+// Large tablets and desktops
+$screen-xl-min: 1200px;
+
+// Small devices
+@mixin sm {
+  @media (min-width: #{$screen-sm-min}) {
+    @content;
+  }
+}
+
+// Medium devices
+@mixin md {
+  @media (min-width: #{$screen-md-min}) {
+    @content;
+  }
+}
+
+// Large devices
+@mixin lg {
+  @media (min-width: #{$screen-lg-min}) {
+    @content;
+  }
+}
+
+// Extra large devices
+@mixin xl {
+  @media (min-width: #{$screen-xl-min}) {
+    @content;
+  }
+}
+
+@font-face {
+  font-family: 'Graphik-Bold';
+  src: url('../fonts/Graphik-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Graphik-Bold.otf') format('opentype'), url('../fonts/Graphik-Bold.woff') format('woff'),
+    url('../fonts/Graphik-Bold.ttf') format('truetype'), url('../fonts/Graphik-Bold.svg#Graphik-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Graphik-Regular';
+  src: url('../fonts/Graphik-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Graphik-Regular.otf') format('opentype'), url('../fonts/Graphik-Regular.woff') format('woff'),
+    url('../fonts/Graphik-Regular.ttf') format('truetype'),
+    url('../fonts/Graphik-Regular.svg#Graphik-Regular') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
