@@ -7,8 +7,8 @@ class Home extends Component {
       <section className='home'>
         <div className='hero'>
           <h1>
-            Hello, I'm Neelesh. A UX/UI designer who applies an analytical, investigative and inquisitive mind to build
-            smart and innovative products.
+            Hello, I'm Neelesh. A <span className='highlight-3'>UX/UI designer</span> who applies an analytical,
+            investigative and inquisitive mind to build smart and innovative products.
           </h1>
           <p className='skills'>
             <b>Primary Skills : </b>
@@ -20,7 +20,7 @@ class Home extends Component {
             <span className='highlight'>Rapid Prototyping</span>
             <span className='highlight'>Visual Design</span>
           </p>
-          <p>
+          <p className='skills'>
             <b>Secondary Skills : </b>
             <span className='highlight-2'>HTML5</span>
             <span className='highlight-2'>SASS</span>
