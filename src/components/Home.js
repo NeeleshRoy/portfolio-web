@@ -39,7 +39,7 @@ class Home extends Component {
                 constantly monitors health related issues.
               </p>
               <Link className='button-primary' to='/projects/sage'>
-                view case study &#8594;
+                Case study &#8594;
               </Link>
             </div>
           </div>
@@ -55,7 +55,7 @@ class Home extends Component {
                 A product for top and mid management to analyze and plan finances in various levels of the organization.
               </p>
               <Link className='button-primary' to='/projects/planatics'>
-                view case study &#8594;
+                Case study &#8594;
               </Link>
             </div>
           </div>
@@ -71,7 +71,7 @@ class Home extends Component {
                 A usability study on total tech support which provides a digital get support experience to the users.
               </p>
               <Link className='button-primary' to='/projects/tts'>
-                view case study &#8594;
+                Case study &#8594;
               </Link>
             </div>
           </div>
@@ -88,7 +88,7 @@ class Home extends Component {
                 domain.
               </p>
               <Link className='button-primary' to='/projects/abt'>
-                view case study &#8594;
+                Case study &#8594;
               </Link>
             </div>
           </div>
