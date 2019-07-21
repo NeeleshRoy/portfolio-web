@@ -61,7 +61,6 @@ blockquote {
 
 p {
   line-height: 1.6;
-  padding: 10px 0;
 }
 
 h3 {
@@ -97,11 +96,13 @@ nav {
     display: flex;
     flex: 1 1;
     justify-content: center;
+    align-items: center;
     li {
       padding: 1rem 0;
-      margin: 1rem 3rem;
+      margin: 2vw 6vw;
       a {
         color: $black;
+        font-size: 1.3em;
       }
     }
   }
@@ -138,6 +139,13 @@ nav {
 
 .ut-content {
   margin-top: 130px;
+}
+
+.ut-stats {
+  margin-top: 40px;
+  @include lg {
+    margin-top: 300px;
+  }
 }
 
 h1 {
@@ -279,8 +287,26 @@ span[class^='highlight'] {
 }
 
 .thanks {
-  float: right;
   padding: 50px 0 100px 0;
+  p {
+    float: right;
+    clear: both;
+  }
+  a {
+    float: right;
+  }
+  @include lg {
+    p {
+      float: right;
+      clear: both;
+    }
+
+    a {
+      float: right;
+      display: block;
+      clear: both;
+    }
+  }
 }
 
 .sage_img_intro {
@@ -343,22 +369,6 @@ ol {
   &::-webkit-scrollbar {
     display: none;
   }
-}
-
-.experiment-card {
-  min-width: 500px;
-  font-size: 1em;
-  flex: 1 1;
-  margin-right: 20px;
-  padding: 40px;
-  background: #e5ffff;
-  border-radius: 10px;
-}
-
-.experiment-card ul li {
-  padding: 0;
-  margin: 0 20px;
-  list-style-type: disc;
 }
 
 .about img {

@@ -8,7 +8,7 @@ class Home extends Component {
         <div className='hero'>
           <h1>
             Hello, I'm Neelesh. A <span className='highlight-3'>UX/UI designer</span> who applies an analytical,
-            investigative and inquisitive mind to build smart and innovative products.
+            investigative and inquisitive mind to build innovative products.
           </h1>
           <p className='skills'>
             <b>Primary Skills : </b>
@@ -91,6 +91,10 @@ class Home extends Component {
                 Case study &#8594;
               </Link>
             </div>
+          </div>
+          <div className='thanks'>
+            <p>Copyright &copy; 2019 by Neelesh Roy</p>
+            <p>All Rights Reserved.</p>
           </div>
         </div>
       </section>

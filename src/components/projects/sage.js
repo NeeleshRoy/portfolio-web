@@ -1,6 +1,45 @@
 import React from 'react'
+import { getCookie } from '../../utils/cookieManager'
 
 function Sage () {
+  const view = getCookie('rdp')
+  const userflows = () => {
+    return (
+      <div className='row'>
+        <div className='col-lg-6 col-xs-12'>
+          <img src='/images/sage/onboarding.png' alt='User Flow - onboarding' />
+        </div>
+        <div className='col-lg-6 col-xs-12'>
+          <img src='/images/sage/reminders.png' alt='User Flow - Reminders' />
+        </div>
+      </div>
+    )
+  }
+
+  const wires = () => {
+    return (
+      <div className='row'>
+        <div className='col-lg-2'>
+          <img src='/images/sage/wires/dashboard_1.png' alt=' Dashboard - main' />
+        </div>
+        <div className='col-lg-2'>
+          <img src='/images/sage/wires/dashboard_3.png' alt='Dashboard from notification' />
+        </div>
+        <div className='col-lg-2'>
+          <img src='/images/sage/wires/gallery_home.png' alt='Gallery - Home' />
+        </div>
+        <div className='col-lg-2'>
+          <img src='/images/sage/wires/landing_screen.png' alt='Landing screen' />
+        </div>
+        <div className='col-lg-2'>
+          <img src='/images/sage/wires/notification_expanded.png' alt='notification expanded' />
+        </div>
+        <div className='col-lg-2'>
+          <img src='/images/sage/wires/reminders_home.png' alt='reminders home' />
+        </div>
+      </div>
+    )
+  }
   return (
     <div className='sage-app'>
       <h1>Sage - An innovation to aid the caretakers of dementia patients</h1>
@@ -14,7 +53,7 @@ function Sage () {
         to load an <b> 11mb </b>portfolio image in a separate window.
       </p>
       <section className='story'>
-        <h3>The Story</h3>
+        <h1>The Story</h1>
         <div className='row'>
           <div className='col-lg-6 col-xs-12'>
             <p>
@@ -34,7 +73,7 @@ function Sage () {
             </p>
           </div>
         </div>
-        <h3>Contextual Enquiry</h3>
+        <h1>Contextual Enquiry</h1>
         <div className='row'>
           <div className='col-lg-4'>
             <p>
@@ -76,7 +115,7 @@ function Sage () {
 
         <i>Two actual interview data of the sage project</i>
         <img src='/images/sage/interview.png' alt='user interview data board sample' />
-        <h3>User Persona</h3>
+        <h1>User Persona</h1>
         <div className='row'>
           <div className='col-lg-5'>
             <img src='/images/sage/persona.png' alt='user persona - Responsibility holder' className='persona-img' />
@@ -107,7 +146,7 @@ function Sage () {
             </p>
           </div>
         </div>
-        <h3>Emotion Web</h3>
+        <h1>Emotion Web</h1>
         <p>
           I create something called an emotion web which allows me to validate the emotion of the app with the actual
           expected emotions from the users.
@@ -117,17 +156,16 @@ function Sage () {
           alt='Emotion web - to validate the the emotion of the app with the actual
           expected emotions '
         />
-        <h3>Solutioning process</h3>
+        <h1>Solutioning</h1>
         <div className='row'>
           <div className='col-lg-5 col-xs-12'>
-            <p>
-              I categorize solutions into three levels:
-              <ul>
-                <li>Level - 1 : A similar solution is available in the market.</li>
-                <li>Level - 2 : A unique and innovative solution which solves new problems of this world.</li>
-                <li>Level - 3 : A Revolutionary idea worthy of a global award.</li>
-              </ul>
-            </p>
+            <p>I categorize solutions into three levels:</p>
+            <ul>
+              <li>Level - 1 : A similar solution is available in the market.</li>
+              <li>Level - 2 : A unique and innovative solution which solves new problems of this world.</li>
+              <li>Level - 3 : A Revolutionary idea worthy of a global award.</li>
+            </ul>
+
             <p>
               I put my thoughts related to the solutions on the board and I started with some competitive benchmarking
               and non-logical solutions to the problems. This enables me to increase the solutioning thinking scope. I
@@ -154,22 +192,18 @@ function Sage () {
         </div>
 
         <img src='/images/sage/cm.png' alt='Conceptual model of the sage app' />
-        <h3>User flows</h3>
-        <div className='row'>
-          <div className='col-lg-6 col-xs-12'>
-            <img src='/images/sage/onboarding.png' alt='User Flow - onboarding' />
-          </div>
-          <div className='col-lg-6 col-xs-12'>
-            <img src='/images/sage/reminders.png' alt='User Flow - Reminders' />
-          </div>
-        </div>
+        <h1>User flows</h1>
+        {
+          view === 'l' ? userflows() :
+          ''}
+
         <p>
           You can find all the feature wise user flows {' '}
           <a href='https://miro.com/app/board/o9J_kx73_Uo=/' target='_blank' rel='noopener noreferrer'>
             here
           </a>
         </p>
-        <h3>Wireframes and Rapid prototypes</h3>
+        <h1>Rapid prototypes</h1>
         <p>
           After completing the feature wise MVP user flows, I started creating the wireframes. Here, I like to put
           emotion web, the user persona, the user flow. For each flow I design wireframes alongwith all the states of
@@ -184,44 +218,26 @@ function Sage () {
           >
             here.
           </a>
+          {
+            view === 'l' ? wires() :
+            ''}
         </p>
 
-        <div class='row'>
-          <div className='col-lg-2'>
-            <img src='/images/sage/wires/dashboard_1.png' alt=' Dashboard - main' />
-          </div>
-          <div className='col-lg-2'>
-            <img src='/images/sage/wires/dashboard_3.png' alt='Dashboard from notification' />
-          </div>
-          <div className='col-lg-2'>
-            <img src='/images/sage/wires/gallery_home.png' alt='Gallery - Home' />
-          </div>
-          <div className='col-lg-2'>
-            <img src='/images/sage/wires/landing_screen.png' alt='Landing screen' />
-          </div>
-          <div className='col-lg-2'>
-            <img src='/images/sage/wires/notification_expanded.png' alt='notification expanded' />
-          </div>
-          <div className='col-lg-2'>
-            <img src='/images/sage/wires/reminders_home.png' alt='reminders home' />
-          </div>
-        </div>
-
-        <h3>Visual Designs</h3>
+        <h1>Visual Designs</h1>
+        <p>The wireframes got converted into visual designs after a total 76 iterations of 36 screens.</p>
         <p>
-          The wireframes got converted into visual designs after a total 76 iterations of 36 screens. Some of the visual
-          design screens:
+          You can find all the visual designs <a href='https://sketch.cloud/s/1epR5'>here.</a>
         </p>
         <img src='/images/sage/vd.png' alt='sage - visual designs' />
 
-        <h3>Usability Testing</h3>
+        <h1>Usability Testing</h1>
 
-        <div className='row ut-content'>
-          <div className='col-lg-6 col-xs-12'>
-            <img src='/images/sage/onboard-testing.png' alt='onboard testing' />
-          </div>
+        <div className='row'>
           <div className='col-lg-6 col-xs-12'>
             <h3>The Onboarding flow</h3>
+            <img src='/images/sage/onboard-testing.png' alt='onboard testing' />
+          </div>
+          <div className='col-lg-6 col-xs-12 ut-stats'>
             <ul>
               <li>Success rate - 100%</li>
               <li>Bounce rate - 0.0%</li>
@@ -235,6 +251,9 @@ function Sage () {
         <div className='row ut-content'>
           <div className='col-lg-6 col-xs-12'>
             <h3>The Reminders</h3>
+            <img src='/images/sage/reminder-testing.png' alt='reminder testing' />
+          </div>
+          <div className='col-lg-6 col-xs-12 ut-stats'>
             <ul>
               <li>Success rate - 88.9%</li>
               <li>Bounce rate - 0.0%</li>
@@ -246,17 +265,14 @@ function Sage () {
               <li>Users struggled or irritated towards setting both start and end time</li>
             </ul>
           </div>
-          <div className='col-lg-6 col-xs-12'>
-            <img src='/images/sage/reminder-testing.png' alt='reminder testing' />
-          </div>
         </div>
 
         <div className='row ut-content'>
           <div className='col-lg-6 col-xs-12'>
+            <h3>The Call flows from notification</h3>
             <img src='/images/sage/call-testing.png' alt='call testings' />
           </div>
-          <div className='col-lg-6 col-xs-12'>
-            <h3>The Call flows from notification</h3>
+          <div className='col-lg-6 col-xs-12 ut-stats'>
             <ul>
               <li>Success rate - 98.3%</li>
               <li>Bounce rate - 0.3%</li>
