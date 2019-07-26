@@ -251,7 +251,7 @@ function Sage () {
         <div className='row ut-content'>
           <div className='col-lg-6 col-xs-12'>
             <h3>The Reminders</h3>
-            <img src='/images/sage/reminder-testing.png' alt='reminder testing' />
+            <img src='/images/sage/Reminder-testing.png' alt='reminder testing' />
           </div>
           <div className='col-lg-6 col-xs-12 ut-stats'>
             <ul>

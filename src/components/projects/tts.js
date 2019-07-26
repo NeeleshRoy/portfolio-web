@@ -67,7 +67,7 @@ function tts () {
         <li>Female: 9</li>
       </ol>
       <h3>Results, Problems and Recommendations</h3>
-      <p className='highlighted'>Problem - 1</p>
+      <p className='bolded'>Problem - 1</p>
       <div className='row'>
         <div className='col-lg-6'>
           <p>
@@ -90,7 +90,7 @@ function tts () {
         </div>
       </div>
 
-      <p className='highlighted'>Problem - 2</p>
+      <p className='bolded heading'>Problem - 2</p>
       <div className='row'>
         <div className='col-lg-6'>
           <p>Many entry points and links were clicked to find the Dashboard</p>
@@ -101,7 +101,7 @@ function tts () {
         </div>
       </div>
 
-      <p className='highlighted'>Problem - 3</p>
+      <p className='bolded heading'>Problem - 3</p>
       <div className='row'>
         <div className='col-lg-6'>
           <p>

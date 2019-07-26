@@ -16,7 +16,7 @@ function Planatics () {
                   <p>
                     <b>Description</b>
                   </p>This project is about a financial dashboard which is used by the top and mid management associates
-                  in TCS. Users can manage resource counts,calculate costs, perform cost modelling and use planners to
+                  in TCS. Users can manage resource counts, calculate costs, perform cost modelling and use planners to
                   streamline and forecast resourcing and project billables.
                 </li>
 
@@ -39,7 +39,7 @@ function Planatics () {
         </div>
         <p className="padding-vertical-20">
           When I joined the project, there was already some documentation and resources available for me to use. I
-          started by reading those documents and get a feeling of the project. After having a bird's eye idea of the
+          started by reading those documents and got a feeling of the project. After having a bird's eye view of the
           project, I conducted a stakeholder interview. I gathered all the requirements and placed them on the board.
         </p>
         <p>
@@ -73,8 +73,8 @@ function Planatics () {
 
             <li>
               The top level management like the head of Retail need not see the whole data. He just cares about the
-              totals. Associates who are below that hierarchy need to see the trend and the totals, becasue they are the
-              actual planners.
+              totals. Associates who are below that hierarchy need to see the trend and the totals, because they use the
+              planners vehemently.
             </li>
 
             <li>

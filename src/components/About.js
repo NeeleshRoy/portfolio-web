@@ -93,8 +93,8 @@ class About extends Component {
               3000-7000 in ASIA squad TPP.
             </p>
             <p>
-              As a designer and a thinker we need to observe and perceive data from environment. Gaming increase vision,
-              and improves decision making skills. Imagine the decision making you have to do with{' '}
+              As a designer and a thinker we need to observe and perceive data from environment. Gaming increases
+              vision, and improves decision making skills. Imagine the decision making you have to do with{' '}
               <a
                 href='https://www.reddit.com/r/DotA2/comments/4agvjy/how_complex_is_dota_2_really/'
                 target='_blank'

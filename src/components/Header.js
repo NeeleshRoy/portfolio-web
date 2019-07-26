@@ -15,7 +15,11 @@ class Header extends Component {
             <Link to='/about'>About</Link>
           </li>
           <li>
-            <a target='_blank' download href='/documents/resume.pdf'>
+            <a
+              target='_blank'
+              rel='noopener noreferrer'
+              href='https://drive.google.com/uc?export=download&id=1BZg3RYv1-2mM16sWVqRkyA4KSqARAYAh'
+            >
               Resume
             </a>
           </li>
