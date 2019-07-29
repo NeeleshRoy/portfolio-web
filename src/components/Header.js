@@ -30,7 +30,9 @@ class Header extends Component {
           </li>
 
           <li>
-            <a href='tel:+91 (910) 207-4630'>tel:+91 (910) 207-4630</a>
+            <a className='phone-call' href='tel:+91 (910) 207-4630'>
+              Phone
+            </a>
           </li>
         </ul>
       </nav>
