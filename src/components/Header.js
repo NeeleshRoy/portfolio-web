@@ -28,6 +28,10 @@ class Header extends Component {
               LinkedIn
             </a>
           </li>
+
+          <li>
+            <a href='tel:+91 (910) 207-4630'>+91 (910) 207-4630</a>
+          </li>
         </ul>
       </nav>
     )
