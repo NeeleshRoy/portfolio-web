@@ -191,7 +191,9 @@ function Sage () {
           </div>
         </div>
 
-        <img src='/images/sage/cm.png' alt='Conceptual model of the sage app' />
+        {
+          view === 'l' ? <img src='/images/sage/cm.png' alt='Conceptual model of the sage app' /> :
+          ''}
         <h1>User flows</h1>
         {
           view === 'l' ? userflows() :
