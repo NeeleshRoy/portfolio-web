@@ -18,7 +18,7 @@ class Header extends Component {
             <a
               target='_blank'
               rel='noopener noreferrer'
-              href='https://drive.google.com/uc?export=download&id=1BZg3RYv1-2mM16sWVqRkyA4KSqARAYAh'
+              href='https://drive.google.com/uc?export=download&id=1S0TjXmxvpRsud779ZIzI8AGTreNIznxq'
             >
               Resume
             </a>
@@ -29,9 +29,9 @@ class Header extends Component {
             </a>
           </li>
 
-          <li><a href='tel:+91 (910) 207-4630'>
-          tel:+91 (910) 207-4630
-            </a></li>
+          <li>
+            <a href='tel:+91 (910) 207-4630'>tel:+91 (910) 207-4630</a>
+          </li>
         </ul>
       </nav>
     )
