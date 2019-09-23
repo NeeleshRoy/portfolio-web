@@ -280,13 +280,6 @@ span[class^='highlight'] {
 
 .thanks {
   padding: 50px 0 100px 0;
-  p {
-    float: right;
-    clear: both;
-  }
-  a {
-    float: right;
-  }
   @include lg {
     p {
       float: right;
@@ -297,6 +290,15 @@ span[class^='highlight'] {
       float: right;
       display: block;
       clear: both;
+    }
+  }
+  @include sm {
+    p {
+      float: right;
+      clear: both;
+    }
+    a {
+      float: right;
     }
   }
 }
@@ -359,10 +361,10 @@ ol {
 }
 
 .disclaimer {
-  padding: 20px 0;
   p {
     color: #ff7777;
   }
+  padding: 20px 0;
 }
 
 .about img {
