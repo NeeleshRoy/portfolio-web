@@ -101,7 +101,7 @@ function mirror () {
 
       <div className='row'>
         <h1>Visual Designs</h1>
-        <div className='col-xs-4'>
+        <div className='col-xs-12 col-lg-4'>
           <p>
             I created the final design after the exhaustive and detailed process of prototyping. At first, glaring of
             the mirror was difficult to overcome. Then, I added proper shadows and blurs to the interface. We were still
@@ -109,16 +109,16 @@ function mirror () {
           </p>
           <p>I created the designs using Sketch</p>
         </div>
-        <div className='col-xs-2'>
+        <div className='col-xs-6 col-lg-2'>
           <img src='/images/mirror/1.jpeg' alt='smart mirror - Glaring issue' />
         </div>
-        <div className='col-xs-2'>
+        <div className='col-xs-6 col-lg-2'>
           <img src='/images/mirror/2.jpeg' alt='smart mirror - Glaring issue' />
         </div>
-        <div className='col-xs-2'>
+        <div className='col-xs-6 col-lg-2'>
           <img src='/images/mirror/3.jpeg' alt='smart mirror - Glaring issue' />
         </div>
-        <div className='col-xs-2'>
+        <div className='col-xs-6 col-lg-2'>
           <img src='/images/mirror/4.jpeg' alt='smart mirror - Glaring issue' />
         </div>
       </div>
