@@ -2,15 +2,15 @@ import React from 'react'
 
 function Planatics () {
   return (
-    <div className="planatics-app">
-      <div className="project-heading">Planatics</div>
-      <section className="story">
-        <div className="row">
-          <div className="col-lg-6">
-            <img src="/images/planatics/planatics_cta_final.jpg" alt="Planatics main" className="elevate-3" />
+    <div className='planatics-app'>
+      <div className='project-heading'>Planatics</div>
+      <section className='story'>
+        <div className='row'>
+          <div className='col-lg-6'>
+            <img src='/images/planatics/planatics_cta_final.jpg' alt='Planatics main' className='elevate-3' />
           </div>
-          <div className="col-lg-6">
-            <div className="project-details">
+          <div className='col-lg-6'>
+            <div className='project-details'>
               <ul>
                 <li>
                   <p>
@@ -37,7 +37,7 @@ function Planatics () {
             </div>
           </div>
         </div>
-        <p className="padding-vertical-20">
+        <p className='padding-vertical-20'>
           When I joined the project, there was already some documentation and resources available for me to use. I
           started by reading those documents and got a feeling of the project. After having a bird's eye view of the
           project, I conducted a stakeholder interview. I gathered all the requirements and placed them on the board.
@@ -99,11 +99,11 @@ function Planatics () {
         </p>
 
         <h3>Heuristics Evaluation</h3>
-        <div className="row">
-          <div className="col-lg-7">
-            <img src="/images/planatics/planatics_heuristics.png" alt="planatics heuristics" />
+        <div className='row'>
+          <div className='col-lg-7'>
+            <img src='/images/planatics/planatics_heuristics.png' alt='planatics heuristics' />
           </div>
-          <div className="col-lg-5">
+          <div className='col-lg-5'>
             <p>
               I figured out that this is a very big change. There were a plethora of usabilty problems popping up. So, I
               decided to perform a heuristics evaluation of the app.
@@ -114,8 +114,8 @@ function Planatics () {
 
         <h3>Prioritization matrix</h3>
 
-        <div className="row">
-          <div className="col-lg-5">
+        <div className='row'>
+          <div className='col-lg-5'>
             <p>
               The team also provided analytics data. I saw the metrics and trends for each page listed in the heuristics
               evaluation. Amidst of the clicks, page visits, heat maps and other psychological data, there were a few
@@ -129,8 +129,8 @@ function Planatics () {
             </p>
             <p>I sat down with the stakeholders and plotted the problems into the quadrants.</p>
           </div>
-          <div className="col-lg-7">
-            <img src="/images/planatics/prioritization-matrix.png" alt="prioritization matrix" />
+          <div className='col-lg-7'>
+            <img src='/images/planatics/prioritization-matrix.png' alt='prioritization matrix' />
           </div>
         </div>
 
@@ -139,49 +139,49 @@ function Planatics () {
           I summarised all the data and designed the wireframes and the end visual designs after around 34 iterations.
           Here are some of the wireframes and their respective visual designs
         </p>
-        <div className="row">
-          <div className="col-lg-5 border">
-            <img src="/images/planatics/Homepage.png" alt="Planatics - Homepage wireframe" />
+        <div className='row'>
+          <div className='col-lg-5 border'>
+            <img src='/images/planatics/Homepage.png' alt='Planatics - Homepage wireframe' />
           </div>
-          <div className="col-lg-2" />
-          <div className="col-lg-5 border">
-            <img src="/images/planatics/Login-vd.png" alt="Planatics - Homepage visual design" />
-          </div>
-        </div>
-
-        <div className="row padding-vertical-20">
-          <div className="col-lg-5 border">
-            <img src="/images/planatics/ISU.png" alt="Planatics - ISU wireframe" />
-          </div>
-          <div className="col-lg-2" />
-          <div className="col-lg-5 border">
-            <img src="/images/planatics/ISU-vd.png" alt="Planatics - ISU visual design" />
+          <div className='col-lg-2' />
+          <div className='col-lg-5 border'>
+            <img src='/images/planatics/Login-vd.png' alt='Planatics - Homepage visual design' />
           </div>
         </div>
 
-        <div className="row padding-vertical-20">
-          <div className="col-lg-5 border">
-            <img src="/images/planatics/Menu.png" alt="Planatics - Menu wireframe" />
+        <div className='row padding-vertical-20'>
+          <div className='col-lg-5 border'>
+            <img src='/images/planatics/ISU.png' alt='Planatics - ISU wireframe' />
           </div>
-          <div className="col-lg-2" />
-          <div className="col-lg-5 border">
-            <img src="/images/planatics/Menu-vd.png" alt="Planatics - Menu visual design" />
+          <div className='col-lg-2' />
+          <div className='col-lg-5 border'>
+            <img src='/images/planatics/ISU-vd.png' alt='Planatics - ISU visual design' />
           </div>
         </div>
 
-        <div className="row padding-vertical-20">
-          <div className="col-lg-5 border">
-            <img src="/images/planatics/Sub-IOU.png" alt="Planatics - Sub IOU wireframe" />
+        <div className='row padding-vertical-20'>
+          <div className='col-lg-5 border'>
+            <img src='/images/planatics/Menu.png' alt='Planatics - Menu wireframe' />
           </div>
-          <div className="col-lg-2" />
-          <div className="col-lg-5 border">
-            <img src="/images/planatics/Sub-IOU-vd.png" alt="Planatics - Sub IOU visual design" />
+          <div className='col-lg-2' />
+          <div className='col-lg-5 border'>
+            <img src='/images/planatics/Menu-vd.png' alt='Planatics - Menu visual design' />
+          </div>
+        </div>
+
+        <div className='row padding-vertical-20'>
+          <div className='col-lg-5 border'>
+            <img src='/images/planatics/Sub-IOU.png' alt='Planatics - Sub IOU wireframe' />
+          </div>
+          <div className='col-lg-2' />
+          <div className='col-lg-5 border'>
+            <img src='/images/planatics/Sub-IOU-vd.png' alt='Planatics - Sub IOU visual design' />
           </div>
         </div>
       </section>
-      <section className="thanks">
+      <section className='thanks'>
         <p>Thank you for your time and patience.</p>
-        <a href="/projects/tts">View next project &#8594;</a>
+        <a href='/projects/abt'>View next project &#8594;</a>
       </section>
     </div>
   )

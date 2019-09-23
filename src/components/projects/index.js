@@ -1,7 +1,7 @@
 import sage from './sage'
 import Planatics from './planatics'
-import tts from './tts'
 import abt from './abt'
+import mirror from './mirror'
 
 function projects (id) {
   switch (id) {
@@ -11,11 +11,11 @@ function projects (id) {
     case 'planatics': {
       return Planatics()
     }
-    case 'tts': {
-      return tts()
-    }
     case 'abt': {
       return abt()
+    }
+    case 'mirror': {
+      return mirror()
     }
     default: {
       return 'default'
