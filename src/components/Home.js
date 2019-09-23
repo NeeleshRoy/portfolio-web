@@ -31,6 +31,19 @@ class Home extends Component {
         </div>
         <div className='portfolio-home'>
           <div className='feature-portfolio'>
+            <img src='/images/projects/cta_5.jpg' alt='Digital wardrobe solution for Retail customers' />
+            <div className='feature-portfolio-info'>
+              <h2>Digital Wardrobe</h2>
+              <p>
+                A digital wardrobe which allows retailers to deliver seamless live experiences and personalisation to
+                the customers
+              </p>
+              <Link className='button-primary' to='/projects/mirror'>
+                Case study &#8594;
+              </Link>
+            </div>
+          </div>
+          <div className='feature-portfolio'>
             <img src='/images/projects/cta_1.jpg' alt='An app for dementia patient&#39;s caretaker' />
             <div className='feature-portfolio-info'>
               <h2>Sage</h2>
@@ -59,23 +72,6 @@ class Home extends Component {
               </Link>
             </div>
           </div>
-
-          <div className='feature-portfolio'>
-            <img
-              src='/images/projects/cta_4.jpg'
-              alt='A usability study on total tech support which provides a digital get support experience to the users.'
-            />
-            <div className='feature-portfolio-info'>
-              <h2>BestBuy Usability studies</h2>
-              <p>
-                A usability study on total tech support which provides a digital get support experience to the users.
-              </p>
-              <Link className='button-primary' to='/projects/tts'>
-                Case study &#8594;
-              </Link>
-            </div>
-          </div>
-
           <div className='feature-portfolio'>
             <img
               src='/images/projects/cta_3.jpg'

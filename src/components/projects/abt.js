@@ -240,7 +240,7 @@ function abt () {
 
       <div className='thanks'>
         <p>Thank you for your time and patience.</p>
-        <a href='/projects/sage'>View next project &#8594;</a>
+        <a href='/projects/mirror'>View next project &#8594;</a>
       </div>
     </div>
   )
