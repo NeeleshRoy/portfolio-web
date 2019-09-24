@@ -2,6 +2,7 @@ import sage from './sage'
 import Planatics from './planatics'
 import abt from './abt'
 import mirror from './mirror'
+import brochures from './brochures'
 
 function projects (id) {
   switch (id) {
@@ -16,6 +17,9 @@ function projects (id) {
     }
     case 'mirror': {
       return mirror()
+    }
+    case 'brochures': {
+      return brochures()
     }
     default: {
       return 'default'

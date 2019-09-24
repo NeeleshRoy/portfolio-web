@@ -61,7 +61,8 @@ blockquote {
 }
 
 p {
-  line-height: 1.6;
+  line-height: 1.8;
+  margin: 10px 0;
 }
 
 h3 {
@@ -410,8 +411,6 @@ ol {
   }
 }
 
-.mirror {
-  p {
-    margin: 10px 0;
-  }
+.brochure-images img {
+  border: 1px solid #eee;
 }
