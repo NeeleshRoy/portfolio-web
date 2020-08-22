@@ -2,8 +2,9 @@ import sage from './sage'
 import Planatics from './planatics'
 import abt from './abt'
 import mirror from './mirror'
+import heythere from './heythere';
 
-function projects (id) {
+function projects(id) {
   switch (id) {
     case 'sage': {
       return sage()
@@ -16,6 +17,9 @@ function projects (id) {
     }
     case 'mirror': {
       return mirror()
+    }
+    case 'heythere': {
+      return heythere()
     }
     default: {
       return 'default'

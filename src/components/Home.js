@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
 class Home extends Component {
-  render () {
+  render() {
     return (
       <section className='home'>
         <div className='hero'>
@@ -30,6 +30,18 @@ class Home extends Component {
           </p>
         </div>
         <div className='portfolio-home'>
+          <div className='feature-portfolio'>
+            <img src='/images/projects/cta_4.jpg' alt='Talk to audience after presentation' />
+            <div className='feature-portfolio-info'>
+              <h2>Hey there</h2>
+              <p>
+                A solution for people who want to continue engagement with their audience after a talk/conference or presentation.
+              </p>
+              <Link className='button-primary' to='/projects/heythere'>
+                Case study &#8594;
+              </Link>
+            </div>
+          </div>
           <div className='feature-portfolio'>
             <img src='/images/projects/cta_5.jpg' alt='Digital wardrobe solution for Retail customers' />
             <div className='feature-portfolio-info'>
