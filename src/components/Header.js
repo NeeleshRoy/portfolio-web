@@ -18,7 +18,7 @@ class Header extends Component {
             <a
               target='_blank'
               rel='noopener noreferrer'
-              href='https://drive.google.com/uc?export=download&id=1S0TjXmxvpRsud779ZIzI8AGTreNIznxq'
+              href='https://drive.google.com/uc?export=download&id=1o1wve2xAyhvypQTD_YqfPqNEOJYJCJ4R'
             >
               Resume
             </a>
