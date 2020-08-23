@@ -12,6 +12,10 @@ const Main = () => (
       <Route path='/projects/:projectid' component={Project} />
       <Route path='/about' exact component={About} />
       <Route path='/lean/:id' component={Lean} />
+      <Route path='/heythere' component={() => {
+        window.location.href = 'https://www.heythere.in';
+        return null;
+      }} />
     </Switch>
   </main>
 )

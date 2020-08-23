@@ -143,6 +143,15 @@ nav {
   margin-top: 130px;
 }
 
+.button-secondary {
+  display: block;
+  background: $blue;
+  padding: 10px;
+  color: $white;
+  width: fit-content;
+  margin-top: 10px;
+}
+
 .ut-stats {
   margin-top: 40px;
   @include lg {
@@ -413,4 +422,70 @@ ol {
 
 .brochure-images img {
   border: 1px solid #eee;
+}
+
+.heythere {
+  .secondary {
+    margin-top: 50px;
+    img {
+      margin-top: 40px;
+      -webkit-box-shadow: 0px 10px 30px 0px rgba(194,194,194,1);
+      -moz-box-shadow: 0px 10px 30px 0px rgba(194,194,194,1);
+      box-shadow: 0px 10px 30px 0px rgba(194,194,194,1);
+    }
+  }
+  .problems {
+    ul {
+      margin-left: 30px;
+      li {
+        list-style-type: disc;
+        font-size: 16px;
+      }
+    }
+  }
+  .solution {
+    margin-top: 100px;
+    img {
+      margin-top: 20px;
+      -webkit-box-shadow: 0px 10px 30px 0px rgba(194,194,194,1);
+      -moz-box-shadow: 0px 10px 30px 0px rgba(194,194,194,1);
+      box-shadow: 0px 10px 30px 0px rgba(194,194,194,1);
+    }
+  }
+  .palettes {
+    @include lg {
+      margin-top: 100px;
+    }
+    display: grid;
+    grid-template-columns: auto auto;
+    .color-palettes {
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      .palette {
+        width: 80px;
+        height: 80px;
+      }
+      .palette-desc {
+        margin-left: 10px;
+        p {
+          margin: 0;
+          padding: 0;
+          font-size: 12px;
+        }
+      }
+      .palette-yellow {
+        background: #ffd60a;
+      }
+      .palette-black {
+        background: #1d252c;
+      }
+      .palette-aqua {
+        background: #1df2bd;
+      }
+      .palette-pink {
+        background: #de1df2;;
+      }
+    }
+  }
 }

@@ -40,6 +40,9 @@ class Home extends Component {
               <Link className='button-primary' to='/projects/heythere'>
                 Case study &#8594;
               </Link>
+              <Link className='button-secondary' to='/heythere' target="_blank" rel="noopener noreferrer">
+                See App
+              </Link>
             </div>
           </div>
           <div className='feature-portfolio'>
@@ -112,20 +115,6 @@ class Home extends Component {
                   See the designs &#8594;
                 </Link>
               </div>
-            </div>
-          </div>
-
-          <div className='feature-portfolio'>
-            <img
-              src='/images/projects/cta_6.jpg'
-              alt='Most recent independently designed brochures to be used during the client visit as an agenda..'
-            />
-            <div className='feature-portfolio-info'>
-              <h2>Client Visit Agendas</h2>
-              <p>Most recent independently designed brochures to be used during the client visit as an agenda.</p>
-              <Link className='button-primary' to='/projects/brochures'>
-                See the designs &#8594;
-              </Link>
             </div>
           </div>
           <div className='thanks'>
