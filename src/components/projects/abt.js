@@ -1,6 +1,6 @@
 import React from 'react'
 
-function abt () {
+function abt() {
   return (
     <div className='abt'>
       <h1>Background and Introduction</h1>
@@ -254,7 +254,7 @@ function abt () {
 
       <div className='thanks'>
         <p>Thank you for your time and patience.</p>
-        <a href='/projects/mirror'>View next project &#8594;</a>
+        <a href='/projects/brochures'>View next project &#8594;</a>
       </div>
     </div>
   )

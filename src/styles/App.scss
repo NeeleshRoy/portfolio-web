@@ -144,12 +144,18 @@ nav {
 }
 
 .button-secondary {
+  border: 1px solid $blue;
+  background: $white;
+  color: $black;
   display: block;
-  background: $blue;
   padding: 10px;
-  color: $white;
   width: fit-content;
   margin-top: 10px;
+  &:hover {
+    border: 1px solid $white;
+    background: $blue;
+    color: $white;
+  }
 }
 
 .ut-stats {

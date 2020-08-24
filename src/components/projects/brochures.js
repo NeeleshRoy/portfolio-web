@@ -1,6 +1,6 @@
 import React from 'react'
 
-function brochures () {
+function brochures() {
   return (
     <div className='brochures'>
       <div className='row'>
@@ -104,7 +104,7 @@ function brochures () {
 
       <section className='thanks'>
         <p>Thank you for your time and patience.</p>
-        <a href='/projects/mirror'>View next project &#8594;</a>
+        <a href='/projects/heythere'>View next project &#8594;</a>
       </section>
     </div>
   )
