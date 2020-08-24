@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 class About extends Component {
-  render () {
+  render() {
     return (
       <div className='about'>
         <div className='row section'>
@@ -20,7 +20,7 @@ class About extends Component {
             </p>
 
             <p>
-              <b>Experience : </b>3.2 years
+              <b>Experience : </b>4.7 years
             </p>
 
             <p>
@@ -111,7 +111,7 @@ class About extends Component {
 
         <section className='thanks'>
           <p>Thank you for your time and patience.</p>
-          <a href='/projects/sage'>Dive into the projects</a>
+          <a href='/projects/heythere'>Dive into the projects</a>
         </section>
       </div>
     )

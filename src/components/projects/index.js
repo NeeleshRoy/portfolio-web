@@ -2,9 +2,10 @@ import sage from './sage'
 import Planatics from './planatics'
 import abt from './abt'
 import mirror from './mirror'
+import heythere from './heythere';
 import brochures from './brochures'
 
-function projects (id) {
+function projects(id) {
   switch (id) {
     case 'sage': {
       return sage()
@@ -17,6 +18,9 @@ function projects (id) {
     }
     case 'mirror': {
       return mirror()
+    }
+    case 'heythere': {
+      return heythere()
     }
     case 'brochures': {
       return brochures()
