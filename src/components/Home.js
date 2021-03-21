@@ -1,14 +1,28 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
+import Typewriter from "typewriter-effect";
+
 class Home extends Component {
   render() {
     return (
       <section className='home'>
         <div className='hero'>
           <h1>
-            Hello, I'm Neelesh. A <span className='highlight-3'>UX/UI designer</span> who applies an analytical,
-            investigative and inquisitive mind to build innovative products.
+            <Typewriter
+              options={{
+                loop: false,
+                skipAddStyles: true
+              }}
+              onInit={(typewriter) => {
+                typewriter
+                  .typeString("Hello, My name is Neelesh.")
+                  .pauseFor(2000)
+                  .typeString(" A <span className='highlight-3'>UX/UI designer.</span>")
+                  .pauseFor(700)
+                  .typeString(" I love to design & develop digital experiences.")
+                  .start()
+              }} />
           </h1>
           <p className='skills'>
             <b>Primary Skills : </b>
