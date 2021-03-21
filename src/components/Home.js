@@ -132,8 +132,7 @@ class Home extends Component {
             </div>
           </div>
           <div className='thanks'>
-            <p>Copyright &copy; 2019 by Neelesh Roy</p>
-            <p>All Rights Reserved.</p>
+            <p>Copyright &copy; 2021 by Neelesh Roy</p>
           </div>
         </div>
       </section>
