@@ -12,7 +12,7 @@ class About extends Component {
           <div className='col-lg-7 col-xs-12'>
             <h1>Neelesh Roy</h1>
             <p>
-              <b>UX/UI designer</b> in Tata Consultancy Services
+              <b>IT Analyst</b> in Tata Consultancy Services
             </p>
 
             <p>
@@ -20,7 +20,7 @@ class About extends Component {
             </p>
 
             <p>
-              <b>Experience : </b>4.7 years
+              <b>Experience : </b>5 years
             </p>
 
             <p>
